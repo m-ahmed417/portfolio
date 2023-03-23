@@ -2,3 +2,19 @@
 
 $primary-font: "Inter";
 $primary-color: black;
+* {
+  font-family: $primary-font;
+  color: $primary-color;
+}
+.intro {
+  .intro__hey {
+    font-size: 20px;
+  }
+  h1 {
+    font-
+  }
+  img {
+    width: 300px;
+    height: 450px;
+  }
+}
