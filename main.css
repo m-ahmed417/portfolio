@@ -50,4 +50,19 @@ h2,
 .projects h5 {
   font-size: 10px;
   margin-bottom: 20px;
+}
+
+.ending {
+  align-items: center;
+}
+.ending .footer {
+  background-color: black;
+}
+.ending .footer .footer_email {
+  color: white;
+  text-align: center;
+}
+.ending .footer .footer__logos {
+  display: flex;
+  justify-content: center;
 }/*# sourceMappingURL=main.css.map */

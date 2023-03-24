@@ -64,3 +64,27 @@ h2,
     margin-bottom: 20px;
   }
 }
+.ending {
+  align-items: center;
+  .footer {
+    background-color: black;
+    .footer_email {
+      color: white;
+      text-align: center;
+    }
+    .footer__logos {
+      display: flex;
+      justify-content: center;
+    }
+  }
+}
+
+@media screen (min-width:320px) {
+  .navigation{
+    display: none;
+  }
+  
+}
+@media screen and (min-width: 1025px) {
+  .n
+}
