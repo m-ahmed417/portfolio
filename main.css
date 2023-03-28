@@ -121,7 +121,7 @@
   .introduction {
     margin-bottom: 50px;
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 0.05fr 1.5fr;
     grid-template-areas: "introduction__name introduction__image" "introduction__job introduction__image";
   }
