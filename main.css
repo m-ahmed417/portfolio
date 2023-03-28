@@ -97,9 +97,11 @@
     display: none;
   }
 }
-@media screen and (min-width: 680px) {
+@media screen and (min-width: 768px) {
   .navigation {
     margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
   }
   .navigation .navigation__name {
     font-weight: bold;
@@ -109,6 +111,7 @@
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
+    width: 500px;
   }
   .navigation .navigation__list--contact {
     font-weight: bold;
@@ -118,7 +121,7 @@
   .introduction {
     margin-bottom: 50px;
     display: grid;
-    grid-template-columns: 1fr 6fr;
+    grid-template-columns: 1fr 3fr;
     grid-template-rows: 0.05fr 1.5fr;
     grid-template-areas: "introduction__name introduction__image" "introduction__job introduction__image";
   }
@@ -154,6 +157,8 @@
     justify-content: space-between;
     margin-top: 50px;
     margin-bottom: 100px;
+    margin-right: 80px;
+    margin-left: 80px;
   }
 
   .card {
@@ -164,5 +169,14 @@
   .project-title {
     text-align: center;
     margin-bottom: 50px;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+  }
+  .footer .footer__logos {
+    height: 20px;
   }
 }
