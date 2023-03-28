@@ -9,123 +9,177 @@
   </head>
   <body>
     <nav class="navigation">
-      <p>
-        Mohammed
-      </p>
-      <a>Home</a>
-      <a>About</a>
-      <a>Projects</a>
-      <button>Get in Touch</button>
+      <p class="navigation__name">Joe Bloggs</p>
+      <div class="navigation__division">
+        <ul class="navigation__list">
+          <li>Home</li>
+          <li>About</li>
+          <li>Projects</li>
+          <button class="navigation__list--contact">Get in touch</button>
+        </ul>
+      </div>
     </nav>
-    <section class="intro">
-      <p class="intro__greeting">&#9995; Hey I'm Mohammed</p>
-      <h1 class="intro__junior">
-        A Junior Software Developer based in the UK.
+    <div class="introduction">
+      <p class="introduction__name">Hey! I'm Mohammed</p>
+      <h1 class="introduction__job">
+        A Junior Software developer based in the UK.
       </h1>
-      <h2>About me</h2>
-      <img src="./pics/Profile.png" />
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi illo,
-        deserunt autem consequatur fugit ipsa nobis quisquam earum beatae
-        doloribus accusamus saepe asperiores animi impedit magnam enim suscipit!
-        Commodi, magnam!
-      </p>
-      <h3>Technical Skills</h3>
-      <p>
-        consequatur fugit ipsa nobis quisquam earum beatae doloribus accusamus
-        saepe asperiores animi impedit magnam enim suscipit! Commodi, magnam!
-      </p>
+      <img
+        src="./pics/laptop.svg"
+        class="introduction__image"
+        alt="man with laptop"
+      />
+    </div>
+    <section class="about-me">
+      <h2 class="about-me__description">About Me</h2>
+      <img
+        src="./pics/Profile.png"
+        class="about-me__image"
+        alt="man with hat"
+      />
+      <div class="about-me__text">
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam id
+          nulla et iure amet sint soluta similique tenetur animi voluptatibus
+          atque, eligendi perspiciatis laudantium, quibusdam quidem, vitae
+          voluptatum. Inventore architecto.
+        </p>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima illum
+          vel totam repudiandae vitae, obcaecati temporibus, sunt molestiae
+          cupiditate natus aspernatur at, expedita quibusdam eligendi tempore
+          assumenda iure pariatur hic.
+        </p>
+      </div>
     </section>
-    <section class="software">
-      <div class="logo software__springboot">
-        <img src="./pics/springboot-logo.svg" />
-        <p>Spring Boot</p>
+    <section class="skillset">
+      <h2 class="skillset__title">Technical Skills</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique,
+        fuga. Optio, provident asperiores ad minus architecto.
+      </p>
+      <div class="software">
+        <div class="logo software__springboot">
+          <img src="./pics/springboot-logo.svg" />
+          <p>Spring Boot</p>
+        </div>
+        <div class="logo software__java">
+          <img src="./pics/java-logo.svg" />
+          <p>Java</p>
+        </div>
+        <div class="logo software__react">
+          <img src="./pics/react-logo.svg" />
+          <p>React</p>
+        </div>
+        <div class="logo software__bem">
+          <img src="./pics/BEM-logo.svg" />
+          <p>BEM</p>
+        </div>
+        <div class="logo software__scss">
+          <img src="./pics/SCSS-logo.svg" />
+          <p>SCSS</p>
+        </div>
+        <div class="logo software__javascript">
+          <img src="./pics/Javascript-logo.svg" />
+          <p>Javascript</p>
+        </div>
+        <div class="logo software__css3">
+          <img src="./pics/CSS Logo.svg" />
+          <p>CSS3</p>
+        </div>
+        <div class="logo software__html">
+          <img src="./pics/HTML Logo.svg" />
+          <p>HTML5</p>
+        </div>
+        <div class="logo software__git">
+          <img src="./pics/GIT Logo.svg" />
+          <p>Git</p>
+        </div>
       </div>
-      <div class="logo software__java">
-        <img src="./pics/java-logo.svg" />
-        <p>Java</p>
-      </div>
-      <div class="logo software__react">
-        <img src="./pics/react-logo.svg" />
+    </section>
+    <h2 class="project-title">My Projects</h2>
+    <section class="card">
+      <div class="projects">
+        <img src="./pics/MacBook Pro 16_ - 53 1.png" alt="picture of project" />
         <p>React</p>
+        <h3 class="projects__customer">Client Project</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae officia
+          earum cum, atque, eaque corporis, molestias odio impedit iste error
+          quaerat!
+        </p>
+        <button class="projects__button">Code</button>
+        <button class="projects__button">Preview</button>
       </div>
-      <div class="logo software__bem">
-        <img src="./pics/BEM-logo.svg" />
-        <p>BEM</p>
+      <div class="projects">
+        <img src="./pics/MacBook Pro 16_ - 53 1.png" alt="picture of project" />
+        <p>React</p>
+        <h3 class="projects__customer">Client Project</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae officia
+          earum cum, atque, eaque corporis, molestias odio impedit iste error
+          quaerat!
+        </p>
+        <button class="projects__button">Code</button>
+        <button class="projects__button">Preview</button>
       </div>
-      <div class="logo software__scss">
-        <img src="./pics/SCSS-logo.svg" />
-        <p>SCSS</p>
+      <div class="projects">
+        <img src="./pics/MacBook Pro 16_ - 53 1.png" alt="picture of project" />
+        <p class="projects__frontend">React</p>
+        <h3 class="projects__customer">Client Project</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae officia
+          earum cum, atque, eaque corporis, molestias odio impedit iste error
+          quaerat!
+        </p>
+        <button class="projects__button">Code</button>
+        <button class="projects__button">Preview</button>
       </div>
-      <div class="logo software__javascript">
-        <img src="./pics/Javascript-logo.svg" />
-        <p>Javascript</p>
+      <div class="mobile-only projects">
+        <img src="./pics/MacBook Pro 16_ - 53 1.png" alt="picture of project" />
+        <p class="projects__frontend">React</p>
+        <h3 class="projects__customer">Client Project</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae officia
+          earum cum, atque, eaque corporis, molestias odio impedit iste error
+          quaerat!
+        </p>
+        <button class="projects__button">Code</button>
+        <button class="projects__button">Preview</button>
       </div>
-      <div class="logo software__css3">
-        <img src="./pics/CSS Logo.svg" />
-        <p>CSS3</p>
+      <div class="mobile-only projects">
+        <img src="./pics/MacBook Pro 16_ - 53 1.png" alt="picture of project" />
+        <p class="projects__frontend">React</p>
+        <h3 class="projects__customer">Client Project</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae officia
+          earum cum, atque, eaque corporis, molestias odio impedit iste error
+          quaerat!
+        </p>
+        <button class="projects__button">Code</button>
+        <button class="projects__button">Preview</button>
       </div>
-      <div class="logo software__html">
-        <img src="./pics/HTML Logo.svg" />
-        <p>HTML5</p>
-      </div>
-      <div class="logo software__git">
-        <img src="./pics/GIT Logo.svg" />
-        <p>Git</p>
+      <div class="mobile-only projects">
+        <img src="./pics/MacBook Pro 16_ - 53 1.png" alt="picture of project" />
+        <p class="projects__frontend">React</p>
+        <h3 class="projects__customer">Client Project</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae officia
+          earum cum, atque, eaque corporis, molestias odio impedit iste error
+          quaerat!
+        </p>
+        <button class="projects__button">Code</button>
+        <button class="projects__button">Preview</button>
       </div>
     </section>
-    <h2 class="my-project-title">My Projects</h2>
 
-    <section class="projects">
-      <div class="projects__card">
-        <img src="./pics/MacBook Pro 16_ - 53 1.png" />
-        <h5 class="projects__title--react">React</h5>
-        <h6 class="projects__title-client">Client Project</h6>
-        <p>
-          consequatur fugit ipsa nobis quisquam earum beatae doloribus accusamus
-          saepe asperiores animi impedi
-        </p>
-        <button class="projects__button projects__button--code">Code</button>
-        <button class="projects__button projects__button--preview">
-          Preview </nav>
-        </button>
-      </div>
-      <div class="projects__card">
-        <img src="./pics/MacBook Pro 16_ - 53 1.png" />
-        <h5 class="projects__title--react">React</h5>
-        <h6 class="projects__title-client">Client Project</h6>
-        <p>
-          consequatur fugit ipsa nobis quisquam earum beatae doloribus accusamus
-          saepe asperiores animi impedi
-        </p>
-        <button class="projects__button projects__button--code">Code</button>
-        <button class="projects__button projects__button--preview">
-          Preview
-        </button>
-      </div>
-      <div class="projects__card">
-        <img src="./pics/MacBook Pro 16_ - 53 1.png" />
-        <h5 class="projects__buttonprojects__title--react">React</h5>
-        <h6 class="projects__title-client">Client Project</h6>
-        <p>
-          consequatur fugit ipsa nobis quisquam earum beatae doloribus accusamus
-          saepe asperiores animi impedi
-        </p>
-        <button class="projects__button projects__button--code">Code</button>
-        <button class="projects__button projects__button--preview">
-          Preview
-        </button>
-      </div>
-    </section>
-    <section class="ending">
     <footer class="footer">
       <div class="footer__logos">
-      <img src="./pics/logo1.svg" alt="github link">
-      <img src="./pics/logo2.svg" alt="linked in link">
-      <img src="./pics/logo3.svg" alt="cv link">
-    </div>
+        <img src="./pics/logo1.svg" alt="github link" />
+        <img src="./pics/logo2.svg" alt="linked in link" />
+        <img src="./pics/logo3.svg" alt="cv link" />
+      </div>
       <p class="footer_email">email@address.com</p>
     </footer>
-  </section>
   </body>
 </html>
